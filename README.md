@@ -1,41 +1,71 @@
-<<<<<<< HEAD
 # InterviewPrep
-AI powered Interview Preparation Application. ❤️
-=======
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+A project that uses AI to generate interview questions tailored to the user's preparations.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Prerequisites
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Before running the project locally, ensure you have the following software installed:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Node.js** (LTS version recommended): [Download Node.js](https://nodejs.org/)
+- **Git**: [Download Git](https://git-scm.com/)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Clone the Repository
 
-To learn more about Next.js, take a look at the following resources:
+Start by cloning the repository to your local machine using Git:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+$ git clone https://github.com/saishmungase/InterviewPrep.git
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Navigate into the project directory:
 
-## Deploy on Vercel
+$ cd InterviewPrep
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
->>>>>>> bb127cc (All-Done)
+## Setting Up the Project
+
+### 1. Add Data to `.env` File
+
+Create a `.env` file in the root directory (if it's not already there). Add the necessary configuration data, such as API keys, database credentials, etc. Here's an example:
+
+DATABASE_URL=your_database_url 
+AI_KEY=your_api_key
+
+Make sure to replace the placeholders with your actual values.
+
+### 2. Install Frontend Dependencies
+
+Open a terminal in the root directory of the project and run the following command to install the frontend dependencies:
+
+$ npm install
+
+After the installation is complete, start the frontend development server:
+
+$ npm run dev
+
+The application will be running at `http://localhost:3000`. Keep this terminal open as it will be running the frontend server.
+
+### 3. Install Backend Dependencies
+
+Open another terminal window and navigate to the `backend` folder:
+
+$ cd backend
+
+Then, install the backend dependencies:
+
+$ npm install
+
+After that, start the backend server by running:
+
+$ node index.js
+
+Your backend will now be running, and both the frontend and backend will be ready for development.
+
+---
+
+## Accessing the Application
+
+- Frontend: [http://localhost:3000](http://localhost:3000)
