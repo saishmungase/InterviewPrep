@@ -32,10 +32,15 @@ $ cd InterviewPrep
 Create a `.env` file in the root directory . Add the necessary configuration data, such as API keys, database credentials, etc. Here's the Schema of .env:
 
 GOOGLE_CLIENT_ID = 
-GOOGLE_CLIENT_SECRET = 
+
+GOOGLE_CLIENT_SECRET =
+
 NEXTAUTH_SECRET = 'InterviewPrep992005'
+
 NEXTAUTH_URL= http://localhost:3000
+
 DATABASE_URL = 
+
 AI_API_KEY = 
 
 Make sure to replace the placeholders with your actual values.
