@@ -29,10 +29,14 @@ $ cd InterviewPrep
 
 ### 1. Add Data to `.env` File
 
-Create a `.env` file in the root directory (if it's not already there). Add the necessary configuration data, such as API keys, database credentials, etc. Here's an example:
+Create a `.env` file in the root directory . Add the necessary configuration data, such as API keys, database credentials, etc. Here's the Schema of .env:
 
-DATABASE_URL=your_database_url 
-AI_KEY=your_api_key
+GOOGLE_CLIENT_ID = 
+GOOGLE_CLIENT_SECRET = 
+NEXTAUTH_SECRET = 'InterviewPrep992005'
+NEXTAUTH_URL= http://localhost:3000
+DATABASE_URL = 
+AI_API_KEY = 
 
 Make sure to replace the placeholders with your actual values.
 
